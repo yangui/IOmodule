@@ -1,0 +1,91 @@
+# 'EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.;
+
+SET UNDO_LOG OFF;
+# Take all libraries out of use
+USE -*;
+#
+# SHEET 1 - MIGRATE PARTS
+#
+EDIT .s1
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/C0402C104K4RAC.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/C0402C104K4RAC.lbr';
+REPLACE C2 C0402C104K4RAC;
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/C0402C104K4RAC.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/C0402C104K4RAC.lbr';
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/Common-Parts-Library-Eagle.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/Common-Parts-Library-Eagle.lbr';
+REPLACE R1 CRCW12064K70FKEA;
+REPLACE R2 CRCW12064K70FKEA;
+REPLACE R3 CRCW06033K60FKEA;
+REPLACE R4 CRCW06033K60FKEA;
+REPLACE R5 CRCW12064K70FKEA;
+REPLACE R6 CRCW12064K70FKEA;
+REPLACE R7 CRCW06033K60FKEA;
+REPLACE R8 CRCW12064K70FKEA;
+REPLACE R9 CRCW12064K70FKEA;
+REPLACE R10 CRCW06033K60FKEA;
+REPLACE R11 CRCW12064K70FKEA;
+REPLACE R20 CRCW12064K70FKEA;
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/Common-Parts-Library-Eagle.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/Common-Parts-Library-Eagle.lbr';
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/DielEnergia.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/DielEnergia.lbr';
+REPLACE J1 CONN_04_TBLOCK_2.54MM;
+REPLACE J2 TERMINAL-PLUG-4P-3,5TERMINAL-3.5-4P;
+REPLACE J3 TERMINAL-PLUG-4P-3,5TERMINAL-3.5-4P;
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/DielEnergia.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/DielEnergia.lbr';
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/DielEnergia@1.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/DielEnergia@1.lbr';
+REPLACE FRAME1 FRAMES_A3L-LOC;
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/DielEnergia@1.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/DielEnergia@1.lbr';
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/Fidget Spinner Example.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/Fidget Spinner Example.lbr';
+REPLACE SUPPLY1 GND;
+REPLACE SUPPLY2 GND;
+REPLACE SUPPLY3 GND;
+REPLACE SUPPLY4 GND;
+REPLACE SUPPLY5 GND;
+REPLACE SUPPLY6 GND;
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/Fidget Spinner Example.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/Fidget Spinner Example.lbr';
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/PCF8574DW.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/PCF8574DW.lbr';
+REPLACE U1 PCF8574DW;
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/PCF8574DW.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/PCF8574DW.lbr';
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/PatternAgents-Beautify.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/PatternAgents-Beautify.lbr';
+REPLACE U$1 3V3;
+REPLACE U$2 3V3;
+REPLACE U$3 3V3;
+REPLACE U$4 3V3;
+REPLACE U$5 3V3;
+REPLACE U$6 3V3;
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/PatternAgents-Beautify.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/PatternAgents-Beautify.lbr';
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/Seeed-OPL-Diode.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/Seeed-OPL-Diode.lbr';
+REPLACE D1 SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC);
+REPLACE D2 SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC);
+REPLACE D3 SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC);
+REPLACE D4 SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC);
+REPLACE D5 SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC);
+REPLACE D6 SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC);
+REPLACE D7 SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC);
+REPLACE D8 SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC);
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/Seeed-OPL-Diode.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/Seeed-OPL-Diode.lbr';
+# Migrate parts to 'C:/Users/guilh/Documents/EAGLE/projects/optocoupler.lbr'
+USE 'C:/Users/guilh/Documents/EAGLE/projects/optocoupler.lbr';
+REPLACE OK1 LTV816S;
+REPLACE OK2 LTV816S;
+REPLACE OK3 LTV816S;
+REPLACE OK4 LTV816S;
+# Take 'C:/Users/guilh/Documents/EAGLE/projects/optocoupler.lbr' out of use
+USE '-C:/Users/guilh/Documents/EAGLE/projects/optocoupler.lbr';
+EDIT .s1
+SET UNDO_LOG ON;
+# Put all libraries back into use
+USE *;
