@@ -617,12 +617,7 @@ DIN A3, landscape with location and doc. field</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31521927/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="PARTNUMBER" value="PH1-01-UA" constant="no"/>
-<attribute name="PARTNUMBER2" value="861400011YO2LF" constant="no"/>
-<attribute name="PARTNUMBER3" value="TSW-101-07-T-S" constant="no"/>
-<attribute name="PARTNUMBER4" value="TSW-101-14-T-S" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

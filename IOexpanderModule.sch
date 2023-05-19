@@ -989,7 +989,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="U$5" library="PatternAgents-Beautify" deviceset="3V3" device=""/>
 <part name="U$6" library="PatternAgents-Beautify" deviceset="3V3" device=""/>
 <part name="SUPPLY6" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
-<part name="J2" library="DielEnergia" deviceset="TERMINAL-PLUG-4P-3,5" device="TERMINAL-3.5-4P" package3d_urn="urn:adsk.eagle:package:40395872/1" value="4P-3.5mm-TERMINAL">
+<part name="J2" library="DielEnergia" deviceset="TERMINAL-PLUG-4P-3,5" device="TERMINAL-3.5-4P" package3d_urn="urn:adsk.eagle:package:40395872/1" value="4P-3.5MM-TERMINAL">
 <attribute name="PARTNUMBER" value="DB2EVC-3.5-4P-GN"/>
 <attribute name="PARTNUMBER2" value="KF2EDGV-3.5-4P"/>
 <attribute name="PARTNUMBER3" value="395016004"/>
@@ -1024,10 +1024,18 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="R9" library="ERJ-2RKF4702X" deviceset="ERJ-2RKF4702X" device="" value="47K"/>
 <part name="R10" library="ERJ-P06J103V" deviceset="ERJ-P06J103V" device="" value="10K"/>
 <part name="R11" library="ERJ-P06J103V" deviceset="ERJ-P06J103V" device="" value="10K"/>
-<part name="J5" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="GND"/>
-<part name="J4" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="SDA"/>
-<part name="J6" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="3V3"/>
-<part name="J7" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="SCL"/>
+<part name="J5" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="GND">
+<attribute name="PARTNUMBER" value="BLACK 24AWG WIRE 150MM"/>
+</part>
+<part name="J4" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="SDA">
+<attribute name="PARTNUMBER" value="YELLOW 24AWG WIRE 150MM"/>
+</part>
+<part name="J6" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="3V3">
+<attribute name="PARTNUMBER" value="RED 24AWG WIRE 150MM"/>
+</part>
+<part name="J7" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="SCL">
+<attribute name="PARTNUMBER" value="GREEN 24AWG WIRE 150MM"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -1200,18 +1208,22 @@ Write Address: 0x4E</text>
 <instance part="J5" gate="G$1" x="286.766003125" y="193.36258125" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.386003125" y="193.10858125" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="292.66134375" y="195.684140625" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="PARTNUMBER" x="286.766003125" y="193.36258125" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J4" gate="G$1" x="286.842203125" y="187.37834375" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.462203125" y="187.12434375" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="292.3514625" y="189.603384375" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="PARTNUMBER" x="286.842203125" y="187.37834375" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J6" gate="G$1" x="286.715203125" y="181.38140625" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.335203125" y="181.12740625" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="292.320984375" y="183.702965625" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="PARTNUMBER" x="286.715203125" y="181.38140625" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="286.77108125" y="175.242225" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.39108125" y="174.988225" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="292.3794" y="177.18024375" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="PARTNUMBER" x="286.77108125" y="175.242225" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>

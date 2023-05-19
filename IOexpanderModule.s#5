@@ -842,7 +842,7 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C0402C104K4RAC" prefix="C">
+<deviceset name="C0402C104K4RAC" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 16volts 0.1uF 10% X7R&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -896,7 +896,7 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ERJ-2RKF4702X" prefix="R">
+<deviceset name="ERJ-2RKF4702X" prefix="R" uservalue="yes">
 <description>Precision Thick Film Chip Resistor, 47Kohm, 0402, 1/10W</description>
 <gates>
 <gate name="G$1" symbol="ERJ-2RKF4702X" x="0" y="0"/>
@@ -949,7 +949,7 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ERJ-P06J103V" prefix="R">
+<deviceset name="ERJ-P06J103V" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Thick Film Resistors - SMD 0805 10Kohms 0.5W 5% AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -994,7 +994,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="U$5" library="PatternAgents-Beautify" deviceset="3V3" device=""/>
 <part name="U$6" library="PatternAgents-Beautify" deviceset="3V3" device=""/>
 <part name="SUPPLY6" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
-<part name="J2" library="DielEnergia" deviceset="TERMINAL-PLUG-4P-3,5" device="TERMINAL-3.5-4P" package3d_urn="urn:adsk.eagle:package:40395872/1" value="4P-3,5mm-TERMINAL">
+<part name="J2" library="DielEnergia" deviceset="TERMINAL-PLUG-4P-3,5" device="TERMINAL-3.5-4P" package3d_urn="urn:adsk.eagle:package:40395872/1" value="4P-3.5mm-TERMINAL">
 <attribute name="PARTNUMBER" value="DB2EVC-3.5-4P-GN"/>
 <attribute name="PARTNUMBER2" value="KF2EDGV-3.5-4P"/>
 <attribute name="PARTNUMBER3" value="395016004"/>

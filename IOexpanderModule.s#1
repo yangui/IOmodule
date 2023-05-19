@@ -1024,16 +1024,24 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="R9" library="ERJ-2RKF4702X" deviceset="ERJ-2RKF4702X" device="" value="47K"/>
 <part name="R10" library="ERJ-P06J103V" deviceset="ERJ-P06J103V" device="" value="10K"/>
 <part name="R11" library="ERJ-P06J103V" deviceset="ERJ-P06J103V" device="" value="10K"/>
-<part name="J5" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="GND"/>
-<part name="J4" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="SDA"/>
-<part name="J6" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="3V3"/>
-<part name="J7" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="SCL"/>
+<part name="J5" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="GND">
+<attribute name="PARTNUMBER" value="BLACK 24AWG WIRE 150MM"/>
+</part>
+<part name="J4" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="SDA">
+<attribute name="PARTNUMBER" value="YELLOW 24AWG WIRE 150MM"/>
+</part>
+<part name="J6" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="3V3">
+<attribute name="PARTNUMBER" value="RED 24AWG WIRE 150MM"/>
+</part>
+<part name="J7" library="DielEnergia" library_urn="urn:adsk.eagle:library:28523259" deviceset="CONN_01_PAD" device="" package3d_urn="urn:adsk.eagle:package:31521927/2" value="SCL">
+<attribute name="PARTNUMBER" value="GREEN 24AWG WIRE 150MM"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="175.723440625" y="215.5689375" size="5.08" layer="97" ratio="6">IO EXPANDER</text>
-<text x="299.6309625" y="215.06471875" size="5.08" layer="97" ratio="6">HEADERS</text>
+<text x="284.3909625" y="215.06471875" size="5.08" layer="97" ratio="6">HEADERS</text>
 <text x="37.919359375" y="214.906" size="5.08" layer="97" ratio="6">OPTOCOUPLERS</text>
 <text x="180.293240625" y="140.1132375" size="1.778" layer="97">Read Address: 0x4F
 Write Address: 0x4E</text>
@@ -1200,18 +1208,22 @@ Write Address: 0x4E</text>
 <instance part="J5" gate="G$1" x="286.766003125" y="193.36258125" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.386003125" y="193.10858125" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="292.66134375" y="195.684140625" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="PARTNUMBER" x="286.766003125" y="193.36258125" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J4" gate="G$1" x="286.842203125" y="187.37834375" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.462203125" y="187.12434375" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="292.3514625" y="189.603384375" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="PARTNUMBER" x="286.842203125" y="187.37834375" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J6" gate="G$1" x="286.715203125" y="181.38140625" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.335203125" y="181.12740625" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="292.320984375" y="183.702965625" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="PARTNUMBER" x="286.715203125" y="181.38140625" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="286.77108125" y="175.242225" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.39108125" y="174.988225" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="292.3794" y="177.18024375" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="PARTNUMBER" x="286.77108125" y="175.242225" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -1637,6 +1649,31 @@ Write Address: 0x4E</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,175.224,187.734,U1,!INT,,,,"/>
+<approved hash="104,1,210.784,192.814,U1,VCC,3V3,,,"/>
+<approved hash="108,1,222.318,192.386,3V3,,,,,"/>
+<approved hash="108,1,98.8894,176.26,OPTO_OUT1,,,,,"/>
+<approved hash="108,1,99.2094,129.87,OPTO_OUT2,,,,,"/>
+<approved hash="108,1,99.5974,83.645,OPTO_OUT3,,,,,"/>
+<approved hash="108,1,99.9174,37.255,OPTO_OUT4,,,,,"/>
+<approved hash="108,1,68.4844,181.31,N$2,,,,,"/>
+<approved hash="107,1,73.4854,167.713,N$12,N$2,,,,"/>
+<approved hash="107,1,73.4854,167.713,N$12,N$2,,,,"/>
+<approved hash="107,1,73.4854,167.713,N$12,N$2,,,,"/>
+<approved hash="108,1,68.7004,167.703,N$12,,,,,"/>
+<approved hash="108,1,68.8044,134.92,N$1,,,,,"/>
+<approved hash="108,1,69.0204,121.313,N$3,,,,,"/>
+<approved hash="108,1,69.1924,88.695,N$6,,,,,"/>
+<approved hash="108,1,69.4084,75.088,N$7,,,,,"/>
+<approved hash="108,1,69.5124,42.305,N$9,,,,,"/>
+<approved hash="108,1,69.7284,28.698,N$10,,,,,"/>
+<approved hash="109,1,101.429,176.26,OPTO_OUT1,,,,,"/>
+<approved hash="109,1,101.749,129.87,OPTO_OUT2,,,,,"/>
+<approved hash="109,1,102.137,83.645,OPTO_OUT3,,,,,"/>
+<approved hash="109,1,102.457,37.255,OPTO_OUT4,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
