@@ -617,7 +617,12 @@ DIN A3, landscape with location and doc. field</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31521927/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNUMBER" value="PH1-01-UA" constant="no"/>
+<attribute name="PARTNUMBER2" value="861400011YO2LF" constant="no"/>
+<attribute name="PARTNUMBER3" value="TSW-101-07-T-S" constant="no"/>
+<attribute name="PARTNUMBER4" value="TSW-101-14-T-S" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -837,7 +842,7 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C0402C104K4RAC" prefix="C" uservalue="yes">
+<deviceset name="C0402C104K4RAC" prefix="C">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 16volts 0.1uF 10% X7R&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -891,7 +896,7 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ERJ-2RKF4702X" prefix="R" uservalue="yes">
+<deviceset name="ERJ-2RKF4702X" prefix="R">
 <description>Precision Thick Film Chip Resistor, 47Kohm, 0402, 1/10W</description>
 <gates>
 <gate name="G$1" symbol="ERJ-2RKF4702X" x="0" y="0"/>
@@ -944,7 +949,7 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ERJ-P06J103V" prefix="R" uservalue="yes">
+<deviceset name="ERJ-P06J103V" prefix="R">
 <description>&lt;b&gt;Thick Film Resistors - SMD 0805 10Kohms 0.5W 5% AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -989,7 +994,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="U$5" library="PatternAgents-Beautify" deviceset="3V3" device=""/>
 <part name="U$6" library="PatternAgents-Beautify" deviceset="3V3" device=""/>
 <part name="SUPPLY6" library="Fidget Spinner Example" library_urn="urn:adsk.eagle:library:9489508" deviceset="GND" device=""/>
-<part name="J2" library="DielEnergia" deviceset="TERMINAL-PLUG-4P-3,5" device="TERMINAL-3.5-4P" package3d_urn="urn:adsk.eagle:package:40395872/1" value="4P-3.5mm-TERMINAL">
+<part name="J2" library="DielEnergia" deviceset="TERMINAL-PLUG-4P-3,5" device="TERMINAL-3.5-4P" package3d_urn="urn:adsk.eagle:package:40395872/1" value="4P-3,5mm-TERMINAL">
 <attribute name="PARTNUMBER" value="DB2EVC-3.5-4P-GN"/>
 <attribute name="PARTNUMBER2" value="KF2EDGV-3.5-4P"/>
 <attribute name="PARTNUMBER3" value="395016004"/>
@@ -1033,7 +1038,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <sheet>
 <plain>
 <text x="175.723440625" y="215.5689375" size="5.08" layer="97" ratio="6">IO EXPANDER</text>
-<text x="284.3909625" y="215.06471875" size="5.08" layer="97" ratio="6">HEADERS</text>
+<text x="299.6309625" y="215.06471875" size="5.08" layer="97" ratio="6">HEADERS</text>
 <text x="37.919359375" y="214.906" size="5.08" layer="97" ratio="6">OPTOCOUPLERS</text>
 <text x="180.293240625" y="140.1132375" size="1.778" layer="97">Read Address: 0x4F
 Write Address: 0x4E</text>
@@ -1637,31 +1642,6 @@ Write Address: 0x4E</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="202,1,175.224,187.734,U1,!INT,,,,"/>
-<approved hash="104,1,210.784,192.814,U1,VCC,3V3,,,"/>
-<approved hash="108,1,222.318,192.386,3V3,,,,,"/>
-<approved hash="108,1,98.8894,176.26,OPTO_OUT1,,,,,"/>
-<approved hash="108,1,99.2094,129.87,OPTO_OUT2,,,,,"/>
-<approved hash="108,1,99.5974,83.645,OPTO_OUT3,,,,,"/>
-<approved hash="108,1,99.9174,37.255,OPTO_OUT4,,,,,"/>
-<approved hash="108,1,68.4844,181.31,N$2,,,,,"/>
-<approved hash="107,1,73.4854,167.713,N$12,N$2,,,,"/>
-<approved hash="107,1,73.4854,167.713,N$12,N$2,,,,"/>
-<approved hash="107,1,73.4854,167.713,N$12,N$2,,,,"/>
-<approved hash="108,1,68.7004,167.703,N$12,,,,,"/>
-<approved hash="108,1,68.8044,134.92,N$1,,,,,"/>
-<approved hash="108,1,69.0204,121.313,N$3,,,,,"/>
-<approved hash="108,1,69.1924,88.695,N$6,,,,,"/>
-<approved hash="108,1,69.4084,75.088,N$7,,,,,"/>
-<approved hash="108,1,69.5124,42.305,N$9,,,,,"/>
-<approved hash="108,1,69.7284,28.698,N$10,,,,,"/>
-<approved hash="109,1,101.429,176.26,OPTO_OUT1,,,,,"/>
-<approved hash="109,1,101.749,129.87,OPTO_OUT2,,,,,"/>
-<approved hash="109,1,102.137,83.645,OPTO_OUT3,,,,,"/>
-<approved hash="109,1,102.457,37.255,OPTO_OUT4,,,,,"/>
-<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
